@@ -16,7 +16,7 @@ jobs:
         # Ignore the failure of a step and avoid terminating the job.
         continue-on-error: true
 
-      - name: Publish to Registry
+      - name: Build / Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: excape/wedding-website/wedding-website

@@ -1,4 +1,7 @@
+import { useTranslations } from "next-intl";
+
 const Banner = () => {
+  const t = useTranslations("Banner");
   return (
     <div className="banner w-screen">
       <style jsx>
@@ -14,7 +17,7 @@ const Banner = () => {
           <div className="w-full h-full flex flex-col items-center justify-between p-4 bg-white opacity-70">
             <p className="font-title text-10vw lg:text-8xl">Save the Date</p>
             <p className="font-title-sans text-7vw md:text-5xl lg:text-4xl text-center">
-              Sophie & Robin's Wedding
+              {t("sophie-robin-wedding")}
             </p>
             <img src="assets/rings.png" className="w-1/4" />
             <div className="flex flex-col items-center lg:gap-4">

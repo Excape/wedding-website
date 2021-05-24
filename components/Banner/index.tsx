@@ -13,11 +13,11 @@ const Banner = () => {
       </style>
       <img
         className="object-cover h-full w-full min-h-screen"
-        src="assets/banner-bg.png"
+        src="assets/vegetable-bg2.png"
       />
       <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full">
         <div className="border-8 lg:border-16 mx-10 sm:mx-36 lg:mx-64 rounded-md backdrop-filter backdrop-blur-lg border-veg-green">
-          <div className="min-h-30 max-w-xl lg:min-h-45 flex flex-col items-center justify-between p-4 bg-white opacity-70">
+          <div className="min-h-30 max-w-xl lg:min-h-45 flex flex-col items-center justify-between px-4 py-6 bg-white opacity-70">
             <p className="font-title text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
               Save the Date
             </p>

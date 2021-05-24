@@ -15,6 +15,7 @@ const LanguageSwitcher = ({ lang }: Props) => {
 
   const toggleLanguage = () => {
     setIsOpen(false);
+    document.cookie = `NEXT_LOCALE=${otherLang}`;
   };
 
   return (

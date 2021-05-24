@@ -1,7 +1,8 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
+  mode: 'jit',
+  plugins: [],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       borderWidth: {
@@ -18,10 +19,13 @@ module.exports = {
         '10vw': '10vw',
         '7vw': '7vw',
       },
+      minHeight: {
+        30: '30rem',
+        45: '45rem',
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
 };

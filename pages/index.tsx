@@ -1,11 +1,15 @@
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/router";
 import Head from "next/head";
+import React from "react";
 import Banner from "../components/Banner";
+import LanguageSwitcher from "../components/LanguageSwitcher/inde";
 import MainInfo from "../components/MainInfo";
 
 export default function Home() {
   const t = useTranslations("index");
+  const router = useRouter();
   return (
     <div className="">
       <Head>
@@ -20,6 +24,7 @@ export default function Home() {
 
       <main>
         <Banner />
+        <LanguageSwitcher lang={router.locale as "de" | "en"} />
         {/* <MainInfo /> */}
       </main>
     </div>

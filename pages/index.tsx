@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import React from "react";
 import Banner from "../components/Banner";
-import LanguageSwitcher from "../components/LanguageSwitcher/inde";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 import MainInfo from "../components/MainInfo";
 
 export default function Home() {

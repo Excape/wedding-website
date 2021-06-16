@@ -1,27 +1,27 @@
 module.exports = {
   darkMode: false, // or 'media' or 'class'
-  mode: 'jit',
+  mode: "jit",
   plugins: [],
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       borderWidth: {
-        16: '16px',
+        16: "16px",
       },
       colors: {
-        'veg-green': '#93c11f',
+        "veg-green": "#93c11f",
       },
       fontFamily: {
-        title: ['Rochester', 'cursive'],
-        'title-sans': ['Quicksand', 'sans-serif'],
+        title: ["Rochester", "cursive"],
+        "title-sans": ["Quicksand", "sans-serif"],
       },
       fontSize: {
-        '10vw': '10vw',
-        '7vw': '7vw',
+        "10vw": "10vw",
+        "7vw": "7vw",
       },
       minHeight: {
-        30: '30rem',
-        40: '40rem',
+        30: "30rem",
+        40: "40rem",
       },
     },
   },

@@ -1,25 +1,14 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "packageRules": [
     {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     },
     {
-      "matchPackagePatterns": [
-        "^@types"
-      ],
+      "matchPackagePatterns": ["^@types"],
       "groupName": "types"
     }
   ],
-  "reviewers": [
-    "excape"
-  ]
+  "reviewers": ["excape"]
 }

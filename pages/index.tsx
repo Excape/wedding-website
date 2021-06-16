@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";

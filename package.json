@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "googleapis": "75.0.0",
+    "googleapis": "77.0.0",
     "next": "11.0.0",
     "next-intl": "1.4.1",
     "react": "17.0.2",

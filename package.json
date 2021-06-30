@@ -11,7 +11,7 @@
   "dependencies": {
     "@notionhq/client": "0.2.0",
     "@windmill/react-ui": "0.6.0",
-    "googleapis": "75.0.0",
+    "googleapis": "80.0.0",
     "next": "11.0.1",
     "next-intl": "1.4.1",
     "react": "17.0.2",

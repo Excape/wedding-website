@@ -6,7 +6,7 @@ import Head from "next/head";
 import React from "react";
 import Banner from "../components/Banner";
 import LanguageSwitcher from "../components/LanguageSwitcher";
-import MainInfo from "../components/MainInfo";
+import EmailSubscribe from "../components/EmailSubscribe";
 
 export default function Home() {
   const t = useTranslations("index");
@@ -26,7 +26,7 @@ export default function Home() {
       <main>
         <Banner />
         <LanguageSwitcher lang={router.locale as "de" | "en"} />
-        {/* <MainInfo /> */}
+        <EmailSubscribe />
       </main>
     </div>
   );

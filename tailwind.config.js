@@ -1,4 +1,7 @@
-module.exports = {
+
+const windmill = require('@windmill/react-ui/config')
+
+module.exports = windmill({
   darkMode: false, // or 'media' or 'class'
   mode: "jit",
   plugins: [],
@@ -28,4 +31,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-};
+});

@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@notionhq/client": "^0.1.9",
     "googleapis": "75.0.0",
     "next": "11.0.1",
     "next-intl": "1.4.1",

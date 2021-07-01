@@ -19,7 +19,7 @@
     "validate.js": "0.13.1"
   },
   "devDependencies": {
-    "@types/react": "17.0.12",
+    "@types/react": "17.0.13",
     "autoprefixer": "10.2.6",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",

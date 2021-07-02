@@ -68,6 +68,7 @@ const EmailSubscribe = () => {
             disabled={signupState === "successful"}
             aria-label={t("enter-your-email") as string}
             placeholder={t("enter-your-email") as string}
+            css=""
           />
           {!emailIsValid && (
             <HelperText valid={false}>{t("invalid-email-message")}</HelperText>

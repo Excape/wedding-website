@@ -5,5 +5,13 @@
   "Banner": {
     "sophie-robin-wedding": "Sophie & Robin's Hochzeit",
     "june-25-2022": "25. Juni 2022"
+  },
+  "EmailSubscribe": {
+    "sign-up": "Anmelden für Updates",
+    "send-button": "Anmelden",
+    "enter-your-email": "Deine E-Mail-Adresse",
+    "invalid-email-message": "Bitte gib ein gültige E-Mail an",
+    "thanks-for-signing-up": "Danke für die Anmeldung! Wir werden dir bald mehr Informationen per E-Mail zusenden!",
+    "error-message": "Leider gab es einen Fehler, bitte probiere es erneut"
   }
 }

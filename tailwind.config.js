@@ -1,11 +1,14 @@
-
-const windmill = require('@windmill/react-ui/config')
+const windmill = require("@windmill/react-ui/config");
 
 module.exports = windmill({
   darkMode: false, // or 'media' or 'class'
   mode: "jit",
   plugins: [],
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "windmill-theme.js",
+  ],
   theme: {
     extend: {
       borderWidth: {
@@ -13,6 +16,12 @@ module.exports = windmill({
       },
       colors: {
         "veg-green": "#93c11f",
+        "map-green": "#82A775",
+        "map-blue": "#3B727C",
+        "map-beige-light": "#D1BE9D",
+        "map-beige": "#B9A37E",
+        "map-brown": "#64513B",
+        "map-red": "#B05F66",
       },
       fontFamily: {
         title: ["Rochester", "cursive"],

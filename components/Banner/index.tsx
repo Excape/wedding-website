@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import ScrollDownHint from "./ScrollDownHint";
 
 const Banner = () => {
   const t = useTranslations("Banner");
@@ -42,6 +43,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      <ScrollDownHint />
     </div>
   );
 };

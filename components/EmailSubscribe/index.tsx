@@ -62,7 +62,7 @@ const EmailSubscribe = () => {
       <div className="flex items-start w-full lg:max-w-2xl px-8 sm:px-24">
         <Label className="w-full mr-4">
           <Input
-            className="text-2xl"
+            className="text-m sm:text-2xl"
             valid={emailIsValid}
             onChange={(e) => validateEmailAddress(e)}
             disabled={signupState === "successful"}
@@ -74,14 +74,16 @@ const EmailSubscribe = () => {
             <HelperText valid={false}>{t("invalid-email-message")}</HelperText>
           )}
           {signupState === "successful" && (
-            <HelperText valid={true}>{t("thanks-for-signing-up")}</HelperText>
+            <HelperText className="text-sm lg:text-xl" valid={true}>
+              {t("thanks-for-signing-up")}
+            </HelperText>
           )}
           {signupState === "failed" && (
             <HelperText valid={false}>{t("error-message")}</HelperText>
           )}
         </Label>
         <Button
-          className="h-12 text-2xl"
+          className="sm:h-12 text-xl sm:text-2xl"
           iconLeft={signupState === "loading" && Spinner}
           disabled={!emailEntered || !emailIsValid}
           onClick={() => sendSubscribe()}

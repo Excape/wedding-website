@@ -57,7 +57,7 @@ const EmailSubscribe = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-4 w-full p-4 pb-12 bg-map-blue">
+    <div className="flex flex-col items-center gap-4 w-full min-h-15 p-4 pb-12 bg-map-blue">
       <h2 className="text-3xl font-title-sans text-white">{t("sign-up")}</h2>
       <div className="flex items-start w-full lg:max-w-2xl px-8 sm:px-24">
         <Label className="w-full mr-4">

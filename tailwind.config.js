@@ -32,6 +32,9 @@ module.exports = windmill({
         "7vw": "7vw",
       },
       minHeight: {
+        10: "10rem",
+        15: "15rem",
+        20: "20rem",
         30: "30rem",
         40: "40rem",
       },

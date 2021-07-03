@@ -6,13 +6,15 @@ const Banner = () => {
   const t = useTranslations("Banner");
   return (
     <div className="h-screen w-screen">
-      <Image
-        layout="fill"
-        alt="vegetable background"
-        objectFit="cover"
-        src="/assets/vegetable-bg2.png"
-        priority
-      />
+      <div className="h-screen">
+        <Image
+          layout="fill"
+          alt="vegetable background"
+          objectFit="cover"
+          src="/assets/vegetable-bg2.png"
+          priority
+        />
+      </div>
       <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full">
         <div className="border-8 lg:border-16 mx-10 sm:mx-36 lg:mx-64 rounded-lg shadow-md backdrop-filter backdrop-blur-lg border-veg-green">
           <div className="min-h-30 max-w-xl max-h-screen lg:min-h-40 flex flex-col items-center justify-between px-4 py-6 bg-white opacity-70">

@@ -16,7 +16,7 @@ const ScrollDownHint = () => {
           position: absolute;
           left: 50%;
           margin-left: -30px;
-          bottom: 20px;
+          bottom: 50px;
         }
 
         .arrows path {

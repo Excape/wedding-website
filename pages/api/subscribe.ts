@@ -8,8 +8,12 @@ const subscribe = async (req, res) => {
     return res.status(500).json({ error: "api key or database id not set!" });
   }
 
-  const email = req.body.email;
+  const name = req.body.name;
+  if (!name) {
+    return res.status(400).json({ error: "set the name in the body" });
+  }
 
+  const email = req.body.email;
   if (!email) {
     return res.status(400).json({ error: "set the email in the body" });
   }
@@ -17,7 +21,7 @@ const subscribe = async (req, res) => {
   const notion = new Client({ auth: apiKey });
 
   try {
-    await postToNotion(email, notion, databaseId);
+    await postToNotion(email, name, notion, databaseId);
   } catch (error) {
     return res.status(500).json({ error: `Error from notion: ${error}` });
   }
@@ -26,7 +30,8 @@ const subscribe = async (req, res) => {
 };
 
 async function postToNotion(
-  content: string,
+  email: string,
+  name: string,
   notion: Client,
   databaseId: string
 ) {
@@ -36,15 +41,23 @@ async function postToNotion(
     body: {
       parent: { database_id: databaseId },
       properties: {
-        title: {
+        Name: {
           title: [
             {
               text: {
-                content,
+                content: name,
               },
             },
           ],
         },
+        Email: {
+          email: email
+        },
+        "Date added": {
+          date: {
+            start: new Date()
+          }
+        }
       },
     },
   });

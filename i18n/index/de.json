@@ -9,8 +9,10 @@
   "EmailSubscribe": {
     "sign-up": "Anmelden für Updates",
     "send-button": "Anmelden",
+    "enter-your-name": "Dein Name",
     "enter-your-email": "Deine E-Mail-Adresse",
     "invalid-email-message": "Bitte gib ein gültige E-Mail an",
+    "invalid-name": "Bitte gib deinen Namen an",
     "thanks-for-signing-up": "Danke für die Anmeldung! Wir werden dir bald mehr Informationen per E-Mail zusenden!",
     "error-message": "Leider gab es einen Fehler, bitte probiere es erneut"
   }

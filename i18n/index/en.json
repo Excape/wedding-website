@@ -9,7 +9,9 @@
   "EmailSubscribe": {
     "sign-up": "Sign up for updates!",
     "send-button": "Send",
-    "enter-your-email": "Enter your email address",
+    "enter-your-name": "Your name",
+    "enter-your-email": "Your email address",
+    "invalid-name": "Please provide your name",
     "invalid-email-message": "Please provide a valid email address",
     "thanks-for-signing-up": "Thanks for signing up! We will send you more information soon!",
     "error-message": "Unfortunately there was an error. Please try again"

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ScrollDownHint from "./ScrollDownHint";
@@ -7,12 +8,10 @@ const Banner = () => {
   return (
     <div className="h-screen w-screen">
       <div className="h-screen">
-        <Image
-          layout="fill"
+        <img
+          className="object-cover h-full w-full min-h-screen"
           alt="vegetable background"
-          objectFit="cover"
           src="/assets/vegetable-bg2.png"
-          priority
         />
       </div>
       <div className="absolute flex items-center justify-center top-0 left-0 w-full h-full">
@@ -25,13 +24,11 @@ const Banner = () => {
               {t("sophie-robin-wedding")}
             </p>
             <div className="w-20 lg:w-28">
-              <Image
+              <img
                 src="/assets/rings.png"
                 alt="rings"
                 width="165"
                 height="165"
-                layout="responsive"
-                priority
               />
             </div>
             <div className="flex flex-col items-center lg:gap-4">

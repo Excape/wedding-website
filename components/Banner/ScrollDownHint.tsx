@@ -24,9 +24,6 @@ const ScrollDownHint = () => {
           fill: transparent;
           stroke-width: 3px;
           animation: arrow 4s infinite;
-           {
-            /* -webkit-animation: arrow 2s infinite; */
-          }
         }
 
         @keyframes arrow {

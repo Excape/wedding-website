@@ -6,7 +6,7 @@ import ScrollDownHint from "./ScrollDownHint";
 const Banner = () => {
   const t = useTranslations("Banner");
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen relative">
       <div className="h-screen">
         <img
           className="object-cover h-full w-full min-h-screen"

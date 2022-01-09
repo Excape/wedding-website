@@ -1,0 +1,83 @@
+import link from "next/link";
+import React, { useState } from "react";
+import styled from "styled-components";
+
+const NavLink = styled.a`
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  :hover {
+    color: #b9a37e;
+  }
+`;
+
+const Nav = styled.ul`
+  @media (max-width: 768px) {
+    display: ${(props) => (props.visible ? "flex" : "none")};
+  }
+`;
+
+const NavBar = () => {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuIsOpen(!menuIsOpen);
+  };
+  const linkProps = { onClick: toggleMenu };
+  return (
+    <nav className="fixed z-50 h-screen md:h-auto w-screen">
+      <div className="text-center bg-white p-4 font-bold md:hidden">
+        <a href="#" className="hover:text-map-beige" {...linkProps}>
+          MENU
+        </a>
+      </div>
+      <Nav
+        visible={menuIsOpen}
+        className="h-screen bg-white flex flex-col items-center
+             md:h-auto md:flex-row md:justify-around font-title-sans"
+      >
+        <li>
+          <NavLink href="#venues" {...linkProps}>
+            VENUES
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#schedule" {...linkProps}>
+            SCHEDULE
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#travel" {...linkProps}>
+            TRAVEL
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#lodging" {...linkProps}>
+            LODGING
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#activities" {...linkProps}>
+            ACTIVITIES
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#rsvp" {...linkProps}>
+            RSVP
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#registry" {...linkProps}>
+            REGISTRY
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#faq" {...linkProps}>
+            FAQ
+          </NavLink>
+        </li>
+      </Nav>
+    </nav>
+  );
+};
+
+export default NavBar;

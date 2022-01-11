@@ -6,6 +6,7 @@ const NavLink = styled.a`
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-transform: uppercase;
   :hover {
     color: #b9a37e;
   }
@@ -22,11 +23,19 @@ const NavBar = () => {
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
   };
-  const linkProps = { onClick: toggleMenu };
+  const onLinkClick = (event) => {
+      toggleMenu();
+      event.preventDefault()
+      const targetAnchor = event.target.getAttribute('href')
+      document.querySelector(targetAnchor).scrollIntoView({
+        behavior: 'smooth'
+    });
+  }
+  const linkProps = { onClick: onLinkClick };
   return (
     <nav className="fixed z-50 h-screen md:h-auto w-screen">
       <div className="text-center bg-white p-4 font-bold md:hidden">
-        <a href="#" className="hover:text-map-beige" {...linkProps}>
+        <a href="#" className="hover:text-map-beige" onClick={toggleMenu}>
           MENU
         </a>
       </div>
@@ -37,27 +46,32 @@ const NavBar = () => {
       >
         <li>
           <NavLink href="#venues" {...linkProps}>
-            VENUES
+            Venues
           </NavLink>
         </li>
         <li>
           <NavLink href="#schedule" {...linkProps}>
-            SCHEDULE
+            Schedule
           </NavLink>
         </li>
         <li>
           <NavLink href="#travel" {...linkProps}>
-            TRAVEL
+            Travel
           </NavLink>
         </li>
         <li>
           <NavLink href="#lodging" {...linkProps}>
-            LODGING
+            Lodging
+          </NavLink>
+        </li>
+        <li>
+          <NavLink href="#ourstory" {...linkProps}>
+            Our Story
           </NavLink>
         </li>
         <li>
           <NavLink href="#activities" {...linkProps}>
-            ACTIVITIES
+            Activites
           </NavLink>
         </li>
         <li>
@@ -67,7 +81,7 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink href="#registry" {...linkProps}>
-            REGISTRY
+            Registry
           </NavLink>
         </li>
         <li>

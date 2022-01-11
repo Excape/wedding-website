@@ -10,6 +10,14 @@ import EmailSubscribe from "../components/EmailSubscribe";
 import NavBar from "../components/Layout/NavBar";
 import Venues from "../components/Venues";
 import styled from "styled-components";
+import Schedule from "../components/Schedule";
+import Travel from "../components/Travel";
+import Lodging from "../components/Lodging";
+import OurStory from "../components/OurStory";
+import Activities from "../components/Activities";
+import FAQ from "../components/FAQ";
+import Registry from "../components/Registry";
+import Rsvp from "../components/Rsvp";
 
 const MainContainer = styled.main`
   padding-top: 56px;
@@ -37,6 +45,14 @@ export default function Home() {
         <LanguageSwitcher lang={router.locale as "de" | "en"} />
         <EmailSubscribe />
         <Venues />
+        <Schedule />
+        <Travel />
+        <Lodging />
+        <OurStory />
+        <Activities />
+        <Rsvp />
+        <Registry />
+        <FAQ />
       </MainContainer>
     </>
   );

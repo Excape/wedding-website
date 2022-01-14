@@ -33,7 +33,7 @@ const NavBar = () => {
   }
   const linkProps = { onClick: onLinkClick };
   return (
-    <nav className="fixed z-50 h-screen md:h-auto w-screen">
+    <nav className="fixed z-50 w-screen">
       <div className="text-center bg-white p-4 font-bold md:hidden">
         <a href="#" className="hover:text-map-beige" onClick={toggleMenu}>
           MENU

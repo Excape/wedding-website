@@ -38,6 +38,9 @@ module.exports = windmill({
         30: "30rem",
         40: "40rem",
       },
+      maxHeight: {
+        screen: "100vh",
+      },
     },
   },
   variants: {

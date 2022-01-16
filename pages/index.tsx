@@ -19,6 +19,7 @@ import FAQ from "../components/FAQ";
 import Registry from "../components/Registry";
 import Rsvp from "../components/Rsvp";
 import ImageBanner from "../components/ImageBanner";
+import TitleBanner from "../components/TitleBanner";
 
 const MainContainer = styled.main`
   padding-top: 56px;
@@ -45,7 +46,8 @@ export default function Home() {
       <MainContainer>
         <ImageBanner />
         <LanguageSwitcher lang={router.locale as "de" | "en"} />
-        <EmailSubscribe />
+        <TitleBanner />
+        {/* <EmailSubscribe /> */}
         <Venues />
         <Schedule />
         <Travel />

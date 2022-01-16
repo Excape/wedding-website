@@ -30,6 +30,7 @@ module.exports = windmill({
       fontSize: {
         "10vw": "10vw",
         "7vw": "7vw",
+        "4vw": "4vw"
       },
       minHeight: {
         10: "10rem",

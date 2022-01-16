@@ -2,9 +2,27 @@
   "index": {
     "title": "Sophie & Robin's Hochzeit"
   },
+  "Nav": {
+    "venues": "Orte",
+    "schedule": "Zeitplan",
+    "travel": "Reisen",
+    "lodging": "Unterkunft",
+    "ourstory": "Über Uns",
+    "activities": "Aktivitäten",
+    "rsvp": "Anmeldung",
+    "registry": "Geschenke",
+    "faq": "FAQ"
+  },
   "Banner": {
-    "sophie-robin-wedding": "Sophie & Robin's Hochzeit",
+    "getting-married": "heiraten",
     "june-25-2022": "25. Juni 2022"
+  },
+  "Venues": {
+    "venues": "Orte",
+    "ceremony": "Zeremonie",
+    "reception": "Feier",
+    "directions": "Anfahrt",
+    "visitwebsite": "Besuche die Website"
   },
   "EmailSubscribe": {
     "sign-up": "Anmelden für Updates",

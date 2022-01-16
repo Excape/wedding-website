@@ -1,6 +1,7 @@
 import link from "next/link";
 import React, { useState } from "react";
 import styled from "styled-components";
+import { useTranslations } from "use-intl";
 
 const NavLink = styled.a`
   display: block;
@@ -13,12 +14,13 @@ const NavLink = styled.a`
 `;
 
 const Nav = styled.ul`
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: ${(props) => (props.visible ? "flex" : "none")};
   }
 `;
 
 const NavBar = () => {
+  const t = useTranslations("Nav")
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
@@ -46,47 +48,47 @@ const NavBar = () => {
       >
         <li>
           <NavLink href="#venues" {...linkProps}>
-            Venues
+            {t("venues")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#schedule" {...linkProps}>
-            Schedule
+          {t("schedule")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#travel" {...linkProps}>
-            Travel
+          {t("travel")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#lodging" {...linkProps}>
-            Lodging
+          {t("lodging")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#ourstory" {...linkProps}>
-            Our Story
+          {t("ourstory")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#activities" {...linkProps}>
-            Activites
+          {t("activities")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#rsvp" {...linkProps}>
-            RSVP
+          {t("rsvp")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#registry" {...linkProps}>
-            Registry
+          {t("registry")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#faq" {...linkProps}>
-            FAQ
+          {t("faq")}
           </NavLink>
         </li>
       </Nav>

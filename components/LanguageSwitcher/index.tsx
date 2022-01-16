@@ -9,7 +9,8 @@ const LanguageSwitcher = ({ lang }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const otherLang = lang === "en" ? "de" : "en";
 
-  const toggleSwitcher = () => {
+  const toggleSwitcher = (event) => {
+    event.preventDefault();
     setIsOpen(!isOpen);
   };
 
@@ -19,19 +20,19 @@ const LanguageSwitcher = ({ lang }: Props) => {
   };
 
   return (
-    <div className="absolute top-8 right-8">
+    <div className="fixed top-16 right-8">
       <a
-        className="flex items-center bg-white px-2 border-veg-green border-2 rounded-xl shadow-lg"
+        className="flex items-center bg-white px-2 border-map-blue border-2 rounded-xl shadow-lg"
         onClick={toggleSwitcher}
-        href="#"
+        href=""
       >
         <LocaleFlag lang={lang} />
         <ChevronDown />
       </a>
       {isOpen && (
-        <Link href="/" locale={otherLang}>
+        <Link href="" locale={otherLang}>
           <a
-            className="relative arrow-up menu--animated flex justify-center mt-3 bg-white border-veg-green border-2 rounded-xl shadow-lg"
+            className="relative arrow-up menu--animated flex justify-center mt-3 bg-white border-map-blue border-2 rounded-xl shadow-lg"
             onClick={toggleLanguage}
           >
             <LocaleFlag lang={otherLang} />
@@ -49,14 +50,14 @@ const LanguageSwitcher = ({ lang }: Props) => {
 
               .arrow-up:after {
                 border-color: rgba(255, 255, 255, 0);
-                border-bottom-color: ##93c11f;
+                border-bottom-color: #3B727C;
                 border-width: 5px;
                 margin-left: -5px;
               }
 
               .arrow-up:before {
                 border-color: rgba(194, 225, 245, 0);
-                border-bottom-color: #93c11f;
+                border-bottom-color: #3B727C;
                 border-width: 8px;
                 margin-left: -8px;
               }

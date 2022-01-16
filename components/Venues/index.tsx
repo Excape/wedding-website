@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import { useTranslations } from "use-intl";
 import Section from "../Layout/Section";
 import {
   Heading2,
@@ -9,9 +9,10 @@ import {
 } from "../Layout/styles";
 
 const Venues = () => {
+  const t = useTranslations("Venues");
   return (
-    <Section id="venues" className="bg-map-beige-light">
-      <SectionHeader className="text-map-blue">Venues</SectionHeader>
+    <Section id="venues" className="bg-map-green">
+      <SectionHeader className="text-map-blue">{t("venues")}</SectionHeader>
       <div className="flex flex-col items-center md:items-start text-center justify-around md:flex-row">
         <div className="flex-1 mb-12 md:mb-0">
           <img
@@ -19,14 +20,14 @@ const Venues = () => {
             src="/assets/rings2.png"
             alt="rings"
           />
-          <Heading2>Ceremony</Heading2>
+          <Heading2>{t("ceremony")}</Heading2>
           <Heading3>70 Red Pine Dr. Carlisle, MA</Heading3>
           <LinkButton
             href="https://goo.gl/maps/khKYeFpAi5XavvuC8"
             color="map-blue"
             hoverColor="map-beige-light"
           >
-            Get Directions
+            {t("directions")}
           </LinkButton>
         </div>
         <div className="flex-1">
@@ -35,7 +36,7 @@ const Venues = () => {
             src="/assets/glasses.png"
             alt="clinking champagne glasses"
           />
-          <Heading2>Reception</Heading2>
+          <Heading2>{t("reception")}</Heading2>
           <Heading3>Griffin Museum of Photography, Winchester, MA</Heading3>
           <div>
             <LinkButton
@@ -43,7 +44,7 @@ const Venues = () => {
               color="map-blue"
               hoverColor="map-beige-light"
             >
-              Get Directions
+              {t("directions")}
             </LinkButton>
           </div>
           <LinkButton
@@ -51,7 +52,7 @@ const Venues = () => {
             color="map-blue"
             hoverColor="map-beige-light"
           >
-            Visit Website
+            {t("visitwebsite")}
           </LinkButton>
         </div>
       </div>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SectionHeader = ({ className, children }) => (
   <h1
-    className={`${className} text-center text-3xl m-4 mb-8 font-title-sans font-bold uppercase`}
+    className={`${className} text-center text-3xl m-4 mb-8 font-title-sans uppercase`}
   >
     {children}
   </h1>
@@ -17,7 +17,7 @@ export const Heading2 = ({
   children: ReactNode;
 }) => (
   <h2
-    className={`${className} text-center text-2xl p-2 font-title-sans font-semibold uppercase`}
+    className={`${className} text-center text-2xl p-2 font-title-sans uppercase`}
   >
     {children}
   </h2>
@@ -30,7 +30,7 @@ export const Heading3 = ({
   className?: string;
   children: ReactNode;
 }) => (
-  <h3 className={`${className} text-center text-xl p-1 mb-4 font-title-sans`}>
+  <h3 className={`${className} text-center text-xl p-1 mb-4 font-title-sans font-light`}>
     {children}
   </h3>
 );

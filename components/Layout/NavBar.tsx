@@ -14,7 +14,7 @@ const NavLink = styled.a`
 `;
 
 const Nav = styled.ul`
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     display: ${(props) => (props.visible ? "flex" : "none")};
   }
 `;
@@ -36,7 +36,7 @@ const NavBar = () => {
   const linkProps = { onClick: onLinkClick };
   return (
     <nav className="fixed z-50 w-screen">
-      <div className="text-center bg-white p-4 font-bold md:hidden">
+      <div className="text-center bg-white p-4 font-bold lg:hidden">
         <a href="#" className="hover:text-map-beige" onClick={toggleMenu}>
           MENU
         </a>
@@ -44,7 +44,7 @@ const NavBar = () => {
       <Nav
         visible={menuIsOpen}
         className="h-screen bg-white flex flex-col items-center
-             md:h-auto md:flex-row md:justify-around font-title-sans"
+             lg:h-auto lg:flex-row lg:justify-around font-title-sans"
       >
         <li>
           <NavLink href="#venues" {...linkProps}>
@@ -72,8 +72,8 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink href="#activities" {...linkProps}>
-          {t("activities")}
+          <NavLink href="#thingstodo" {...linkProps}>
+          {t("thingstodo")}
           </NavLink>
         </li>
         <li>

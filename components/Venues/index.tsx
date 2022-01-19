@@ -33,8 +33,8 @@ const Venues = () => {
         <div className="flex-1">
           <img
             className="h-16 m-auto mb-2"
-            src="/assets/glasses.png"
-            alt="clinking champagne glasses"
+            src="/assets/cake.svg"
+            alt="wedding cake"
           />
           <Heading2>{t("reception")}</Heading2>
           <Heading3>Griffin Museum of Photography, Winchester, MA</Heading3>

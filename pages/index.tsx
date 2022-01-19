@@ -14,7 +14,7 @@ import Schedule from "../components/Schedule";
 import Travel from "../components/Travel";
 import Lodging from "../components/Lodging";
 import OurStory from "../components/OurStory";
-import Activities from "../components/Activities";
+import ThingsToDo from "../components/ThingsToDo";
 import FAQ from "../components/FAQ";
 import Registry from "../components/Registry";
 import Rsvp from "../components/Rsvp";
@@ -36,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rochester&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rochester&display=swap"
           rel="stylesheet"
         />
 
@@ -53,7 +53,7 @@ export default function Home() {
         <Travel />
         <Lodging />
         <OurStory />
-        <Activities />
+        <ThingsToDo />
         <Rsvp />
         <Registry />
         <FAQ />

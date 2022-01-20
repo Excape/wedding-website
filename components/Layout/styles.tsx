@@ -30,7 +30,9 @@ export const Heading3 = ({
   className?: string;
   children: ReactNode;
 }) => (
-  <h3 className={`${className} text-center text-xl p-1 mb-4 font-title-sans font-light`}>
+  <h3
+    className={`text-center text-xl p-1 mb-4 font-title-sans font-light ${className}`}
+  >
     {children}
   </h3>
 );

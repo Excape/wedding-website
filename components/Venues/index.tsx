@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { useTranslations } from "use-intl";
 import Section from "../Layout/Section";

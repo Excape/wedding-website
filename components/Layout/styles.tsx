@@ -47,3 +47,14 @@ export const LinkButton = ({ href, color, hoverColor, children }) => (
     {children}
   </a>
 );
+
+export const Link = ({ href, hoverColor, children }) => (
+  <a
+    className={`border-b border-dashed font-semibold border-map-beige-light pb-px hover:bg-map-beige-light hover:text-map-brown`}
+    href={href}
+    target="_blank"
+    rel="noreferrer"
+  >
+    {children}
+  </a>
+);

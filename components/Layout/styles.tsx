@@ -37,9 +37,9 @@ export const Heading3 = ({
   </h3>
 );
 
-export const LinkButton = ({ href, color, hoverColor, children }) => (
+export const LinkButton = ({ href, children }) => (
   <a
-    className={`inline-block w-40 border-${color} border-2 font-title-sans px-2 py-1 my-2 uppercase hover:bg-${color} hover:text-${hoverColor}`}
+    className="inline-block w-40 border-map-blue border-2 font-title-sans px-2 py-1 my-2 uppercase hover:bg-map-blue hover:text-map-beige-light"
     href={href}
     target="_blank"
     rel="noreferrer"
@@ -48,7 +48,7 @@ export const LinkButton = ({ href, color, hoverColor, children }) => (
   </a>
 );
 
-export const Link = ({ href, hoverColor, children }) => (
+export const Link = ({ href, children }) => (
   <a
     className={`border-b border-dashed font-semibold border-map-beige-light pb-px hover:bg-map-beige-light hover:text-map-brown`}
     href={href}

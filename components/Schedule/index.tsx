@@ -53,7 +53,7 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>Laurie and Sol's house</p>
+          <p>Laurie and Sol&apos;s house</p>
           <p>70 Red Pine Dr. Carlisle, MA</p>
         </div>
       </div>

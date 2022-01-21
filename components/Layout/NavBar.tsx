@@ -20,19 +20,19 @@ const Nav = styled.ul`
 `;
 
 const NavBar = () => {
-  const t = useTranslations("Nav")
+  const t = useTranslations("Nav");
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const toggleMenu = () => {
     setMenuIsOpen(!menuIsOpen);
   };
   const onLinkClick = (event) => {
-      toggleMenu();
-      event.preventDefault()
-      const targetAnchor = event.target.getAttribute('href')
-      document.querySelector(targetAnchor).scrollIntoView({
-        behavior: 'smooth'
+    toggleMenu();
+    event.preventDefault();
+    const targetAnchor = event.target.getAttribute("href");
+    document.querySelector(targetAnchor).scrollIntoView({
+      behavior: "smooth",
     });
-  }
+  };
   const linkProps = { onClick: onLinkClick };
   return (
     <nav className="fixed z-50 w-screen">
@@ -53,42 +53,42 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink href="#schedule" {...linkProps}>
-          {t("schedule")}
+            {t("schedule")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#travel" {...linkProps}>
-          {t("travel")}
+            {t("travel")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#lodging" {...linkProps}>
-          {t("lodging")}
+            {t("lodging")}
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink href="#ourstory" {...linkProps}>
-          {t("ourstory")}
+            {t("ourstory")}
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink href="#thingstodo" {...linkProps}>
-          {t("thingstodo")}
+            {t("thingstodo")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#rsvp" {...linkProps}>
-          {t("rsvp")}
+            {t("rsvp")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#registry" {...linkProps}>
-          {t("registry")}
+            {t("registry")}
           </NavLink>
         </li>
         <li>
           <NavLink href="#faq" {...linkProps}>
-          {t("faq")}
+            {t("faq")}
           </NavLink>
         </li>
       </Nav>

@@ -12,13 +12,10 @@ const ImageBanner = () => {
         interval={3000}
         infiniteLoop
         showStatus={false}
-        swipeable={false}
-        showArrows={false}
       >
-        <img src="/pics/1.jpg" />
-        <img src="/pics/1.jpg" />
-        <img src="/pics/1.jpg" />
-        <img src="/pics/1.jpg" />
+        {Array.from(Array(8).keys()).map((i) => (
+          <img key={i} src={`/pics/${i + 1}.jpg`} alt="Selfies" />
+        ))}
       </Carousel>
     </div>
   );

@@ -22,11 +22,9 @@ const Travel = () => {
           <p className="mb-2">
             This is the closest airport. We would recommend booking ASAP. You
             can look through websites such as{" "}
-            <Link href="https://www.momondo.com/" hoverColor="map-beige-light">
-              momondo.com
-            </Link>{" "}
-            or <a href="https://www.kayak.com/flights">kayak.com</a> for deals
-            on flights.
+            <Link href="https://www.momondo.com/">momondo.com</Link> or{" "}
+            <Link href="https://www.kayak.com/flights">kayak.com</Link> for
+            deals on flights.
           </p>
           <p>
             Our hotel blocks are a short cab / Lyft/Uber ride away (about 15

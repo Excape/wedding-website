@@ -3,7 +3,7 @@ import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import React, {  } from "react";
+import React from "react";
 import Banner from "../components/Banner";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import EmailSubscribe from "../components/EmailSubscribe";
@@ -23,7 +23,7 @@ import TitleBanner from "../components/TitleBanner";
 
 const MainContainer = styled.main`
   padding-top: 56px;
-`
+`;
 
 export default function Home() {
   const t = useTranslations("index");
@@ -39,7 +39,6 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rochester&display=swap"
           rel="stylesheet"
         />
-
       </Head>
 
       <NavBar />
@@ -52,7 +51,7 @@ export default function Home() {
         <Schedule />
         <Travel />
         <Lodging />
-        <OurStory />
+        {/* <OurStory /> */}
         <ThingsToDo />
         <Rsvp />
         <Registry />

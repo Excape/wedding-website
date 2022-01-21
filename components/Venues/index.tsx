@@ -23,11 +23,7 @@ const Venues = () => {
           />
           <Heading2>{t("ceremony")}</Heading2>
           <Heading3>70 Red Pine Dr. Carlisle, MA</Heading3>
-          <LinkButton
-            href="https://goo.gl/maps/khKYeFpAi5XavvuC8"
-            color="map-blue"
-            hoverColor="map-beige-light"
-          >
+          <LinkButton href="https://goo.gl/maps/khKYeFpAi5XavvuC8">
             {t("directions")}
           </LinkButton>
         </div>
@@ -40,19 +36,11 @@ const Venues = () => {
           <Heading2>{t("reception")}</Heading2>
           <Heading3>Griffin Museum of Photography, Winchester, MA</Heading3>
           <div>
-            <LinkButton
-              href="https://goo.gl/maps/B6SrD2FpR9HCLYVEA"
-              color="map-blue"
-              hoverColor="map-beige-light"
-            >
+            <LinkButton href="https://goo.gl/maps/B6SrD2FpR9HCLYVEA">
               {t("directions")}
             </LinkButton>
           </div>
-          <LinkButton
-            href="https://griffinmuseum.org/"
-            color="map-blue"
-            hoverColor="map-beige-light"
-          >
+          <LinkButton href="https://griffinmuseum.org/">
             {t("visitwebsite")}
           </LinkButton>
         </div>

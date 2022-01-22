@@ -4,8 +4,15 @@ import { SectionHeader } from "../Layout/styles";
 
 const ThingsToDo = () => {
   return (
-    <Section id="thingstodo" className="bg-map-beige min-h-screen">
-      <SectionHeader className="text-map-red">Things To do</SectionHeader>
+    <Section id="thingstodo" className="bg-map-green">
+      <SectionHeader className="text-map-blue">Things To do</SectionHeader>
+      <div>
+        <p>Here are some ideas for things to do around Boston!</p>
+        <ul>
+          <li>Brewery tours</li>
+          <li>Duck Boat tour</li>
+        </ul>
+      </div>
     </Section>
   );
 };

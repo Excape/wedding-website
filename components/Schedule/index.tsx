@@ -4,21 +4,25 @@ import { Heading2, Heading3, SectionHeader } from "../Layout/styles";
 import Image from "next/image";
 import Cake from "../../public/assets/cake.svg";
 import PlateSVG from "../../public/assets/plate.svg";
+import { useTranslations } from "use-intl";
 
 const Schedule = () => {
+  const t = useTranslations("Schedule");
   return (
     <Section
       id="schedule"
       className="bg-map-beige text-map-blue font-medium min-h-screen space-y-16 md:space-y-0"
     >
-      <SectionHeader className="text-map-blue">Schedule</SectionHeader>
+      <SectionHeader className="text-map-blue">{t("title")}</SectionHeader>
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="text-center mb-4 md:p-16 md:m-0 md:flex-1">
-          <Heading2>Welcome Event</Heading2>
+          <Heading2>{t("welcome")}</Heading2>
           <h3 className="font-title-sans text-xl font-light">
-            Friday, June 24th
+            {t("welcome_date")}
           </h3>
-          <h3 className="font-title-sans text-xl font-light">Evening</h3>
+          <h3 className="font-title-sans text-xl font-light">
+            {t("welcome_time")}
+          </h3>
         </div>
         <div className="text-center font-title-sans md:p-16 md:flex-1 md:border-l border-map-blue">
           <div className="w-16 h-16 mx-auto mb-4 relative">
@@ -29,19 +33,17 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>
-            Come join us on Friday night when you get in! Details to follow.
-          </p>
+          <p>{t("welcome_details")}</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="text-center mb-4 md:p-16 md:m-0 md:flex-1">
-          <Heading2>Ceremony</Heading2>
+          <Heading2>{t("ceremony")}</Heading2>
           <h3 className="font-title-sans text-xl uppercase font-light">
-            Saturday, June 25th
+            {t("ceremony_date")}
           </h3>
           <h3 className="font-title-sans text-xl font-light">
-            3:30 PM - 4:30 PM
+            {t("ceremony_time")}
           </h3>
         </div>
         <div className="text-center font-title-sans md:p-16 md:flex-1 md:border-l border-map-blue">
@@ -53,17 +55,19 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>Laurie and Sol&apos;s house</p>
+          <p>{t("ceremony_location")}</p>
           <p>70 Red Pine Dr. Carlisle, MA</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="text-center mb-4 md:p-16 md:m-0 md:flex-1">
-          <Heading2>Reception</Heading2>
+          <Heading2>{t("reception")}</Heading2>
           <h3 className="font-title-sans text-xl uppercase font-light">
-            Saturday, June 25th
+            {t("reception_date")}
           </h3>
-          <h3 className="font-title-sans text-xl font-light">5:00 PM</h3>
+          <h3 className="font-title-sans text-xl font-light">
+            {t("reception_time")}
+          </h3>
         </div>
         <div className="text-center font-title-sans md:p-16 md:flex-1 md:border-l border-map-blue">
           <div className="w-16 h-16 mx-auto mb-4 relative">
@@ -76,19 +80,18 @@ const Schedule = () => {
           </div>
           <p>Griffin Museum of Photography</p>
           <p>67 Shore Rd, Winchester, MA</p>
-          <p className="mt-4">
-            There will be a bus to take you from the ceremony to the reception
-            venue!
-          </p>
+          <p className="mt-4">{t("reception_details")}</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="text-center mb-4 md:p-16 md:m-0 md:flex-1">
-          <Heading2>Sunday Brunch</Heading2>
+          <Heading2>{t("brunch")}</Heading2>
           <h3 className="font-title-sans text-xl uppercase font-light">
-            Sunday, June 26th
+            {t("brunch_date")}
           </h3>
-          <h3 className="font-title-sans text-xl font-light">Morning</h3>
+          <h3 className="font-title-sans text-xl font-light">
+            {t("brunch_time")}
+          </h3>
         </div>
         <div className="text-center font-title-sans md:p-16 md:flex-1 md:border-l border-map-blue">
           <div className="w-14 h-14 mx-auto mb-4 relative">
@@ -99,7 +102,7 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>Details to follow.</p>
+          <p>{t("brunch_details")}</p>
         </div>
       </div>
     </Section>

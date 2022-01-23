@@ -39,7 +39,7 @@ export const Heading3 = ({
 
 export const LinkButton = ({ href, children }) => (
   <a
-    className="inline-block w-40 border-map-blue border-2 font-title-sans px-2 py-1 my-2 uppercase hover:bg-map-blue hover:text-map-beige-light"
+    className="inline-block w-48 border-map-blue border-2 font-title-sans px-2 py-1 my-2 uppercase hover:bg-map-blue hover:text-map-beige-light"
     href={href}
     target="_blank"
     rel="noreferrer"

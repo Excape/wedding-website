@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { useTranslations } from "use-intl";
-import PlaneHearts from "../../public/assets/plane_heart.svg";
 
 const TitleBanner = () => {
   const t = useTranslations("Banner");
@@ -9,7 +8,7 @@ const TitleBanner = () => {
     <>
       <div className="bg-map-blue text-white text-center py-8 px-8">
         <h1 className="font-title text-5xl mb-4 sm:text-6xl md:text-7xl lg:text-8xl">
-          Sophie & Robin
+          Sophie &amp; Robin
         </h1>
         <img
           className="w-48 mx-auto mb-4 md:w-64 lg:w-72"

@@ -22,7 +22,9 @@ const FAQ = () => {
           }
         />
         <FAQQuestion
-          question={"I don't have a car. How can I get to the wedding venues?"}
+          question={
+            "I don&apos;t have a car. How can I get to the wedding venues?"
+          }
           answer={
             "We are providing a bus service from the hotels in Station Landing to the ceremony, from the ceremony to the reception and then back to the hotel. Stay tuned for detailed information about the schedule!"
           }
@@ -30,7 +32,7 @@ const FAQ = () => {
         <FAQQuestion
           question={"Can I take pictures during the ceremony?"}
           answer={
-            "We are asking everyone to not take photos during the ceremony. Please keep your phones and cameras in your pockets or bags. We will have professional photographers and videographers capturing the ceremony and we'll share the results!"
+            "We are asking everyone to not take photos during the ceremony. Please keep your phones and cameras in your pockets or bags. We will have professional photographers and videographers capturing the ceremony and we&apos;ll share the results!"
           }
         />
         <FAQQuestion
@@ -41,7 +43,7 @@ const FAQ = () => {
             <>
               We will be using the hashtag{" "}
               <span className="font-bold">#WellSuted</span> (this was not
-              Robin's idea)
+              Robin&apos;s idea)
             </>
           }
         />

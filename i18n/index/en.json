@@ -52,7 +52,7 @@
     "around": "Getting around",
     "around_summary": "We will have a bus that goes from the hotels to the ceremony, ceremony to reception, and reception back to the hotels! But for getting around on the other days, here are a few options.",
     "public_1": "Boston is a very walkable city. Lots of interesting things are close to each other, making it easier to walk or take public transit options to get around most times.",
-    "public_2": "The trains and busses (<mbta>MBTA</mbta>) are an affordable and extensive way to get around Boston. Each ride on subway is $2.40 and bus is $1.70. However, if you’re planning to stay for a bit, we’d recommend getting a pass. Daily passes are $12.75 for 24 hours of travel and $22.50 for a weekly pass.",
+    "public_2": "The trains and busses (<mbta>MBTA</mbta>) are an affordable way to get around Boston. Each ride on subway is $2.40 and bus is $1.70. However, if you’re planning to stay for a bit, we’d recommend getting a pass. Daily passes are $12.75 for 24 hours of travel and $22.50 for a weekly pass.",
     "taxi": "Lyfts and Ubers are readily available in Boston, as are taxi cabs. This makes a good way to transport a few people around town.",
     "rental": "You can rent a car right from the airport if you wish! The parking at the hotel blocks is $12.00 overnight and day parking is $6.00."
   },
@@ -66,6 +66,12 @@
     "boston_north_price": "$259 per night",
     "airbnb_details": "If you are looking for more of an apartment/home instead of a hotel, Airbnb is always a good place to start. The hotel is in the medford area, but feel free to book a place more in the city there are lots of great neighborhoods to look at! Let us know if you need a recommendation!",
     "airbnb_link": "Visit Airbnb"
+  },
+  "RSVP": {
+    "respond": "Please respond by <date>May 14th, 2022</date>",
+    "error_name": "Please provide a name",
+    "error_email": "Please provide an email address",
+    "attending": "Will you be attending?"
   },
   "EmailSubscribe": {
     "sign-up": "Sign up for updates!",

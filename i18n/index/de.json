@@ -89,7 +89,27 @@
     "message": "Wenn ihr uns ein Geschenk besorgen wollt, ist hier der Link für unsere Wunschliste. Bitte kauft direkt über diese Webseite, dann werden die Geschenke direkt zu uns gesendet.",
     "visit": "Wunschliste"
   },
-  "FAQ": {},
+  "FAQ": {
+    "clothes_q": "Was soll ich anziehen?",
+    "clothes_a_1": "Kleider.",
+    "clothes_a_2": "...wenn ihr mehr als das zur Orientierung braucht, denken wir an leger (casual), aber nett (denn wer will schon im Juni einen kompletten Anzug und ein Ballkleid tragen?). Aber bitte trag, was dir gefällt! Und für die Damen: Achtet auf die Schuhe. Es wird getanzt werden. Ihr wurdet vorgewarnt :)",
+    "diet_q": "Werdet ihr Allergien, Essensvorlieben, etc. beachten?",
+    "diet_a": "Absolut! Wir zahlen viel Geld und wollen, dass jeder unser Essen geniessen kann! Wir haben bereits eine lange Liste von Allergenen die wir meiden, also kannst du gerne deine eigenen hinzufügen. Bitte teile uns alle Allergien / Einschränkungen oder Vorlieben mit, wenn du dich anmeldest!",
+    "car_q": "Ich werde nicht mit dem Auto unterwegs sein. Wie komme ich zur Veranstaltung?",
+    "car_a": "Es ist nicht nötig, ein Mietauto zu buchen, wenn du im Hotel übernachtest! Wir werden einen Busservice von den Hotels zur Zeremonie, von der Zeremonie zur Feier und dann zurück zum Hotel anbieten. Wenn du woanders übernachtest oder in der Nähe wohnst, kannst du auch die ÖV oder ein Taxi zu den Hotels nehmen (oder für $6 am Hotel parken) und von dort aus unseren Bus nehmen. Halte Ausschau nach detaillierten Informationen über den Zeitplan!",
+    "parking_q": "Ich komme direkt mit dem Auto, wo kann ich parken?",
+    "parking_a": "Am Ort der Zeremonie gibt es nicht viel Parking, da uns Laurie und Sol freundlicherweise ihr Haus zur Verfügung stellen. Beim Feier gibt es genügend Parking. Wenn möglich, empfehlen wir, den Bus vom Hotel zu nehmen. Wenn ihr das Feier verlassen wollt, bevor die Busse zurückfahren, könnt ihr auch ein Lyft/Uber nehmen, das euch zu euren Autos am Hotel bringt. Die Fahrt ist ca. 10 Minuten.",
+    "outside_q": "Werden wir drinnen oder draussen sein?",
+    "outside_a": "Wenn das Wetter mitspielt, findet die Zeremonie im Freien statt. Sonnencreme nicht vergessen! Der Cocktail-Empfang bei der Feier sollte (wiederum bei gutem Wetter) draussen stattfinden, aber die Feier selbst wird drinnen sein!",
+    "pics_q": "Kann ich während der Zeremonie Fotos machen?",
+    "pics_a": "Wir hoffen auf eine Zeremonie ohne Handys und bitten alle, während der Zeremonie keine Fotos zu machen. Wir werden die Zeremonie von professionellen Fotografen Feierhalten lassen und die Fotos mit euch teilen! Während der Feier könnt ihr natürlich beliebig Selfies machen :)",
+    "social_q": "Ich will die Fotos auf Insta teilen, was ist euer Hashtag?",
+    "social_a": "#WellSuted",
+    "kids_q": "Kann ich Kinder mitbringen?",
+    "kids_a": "Natürlich! Alle Kleinen sind willkommen, auch wenn Sophie sich wahrscheinlich mehr um die kleinen kümmert als um den Bräutigam. Lassen uns einfach wissen, dass sie da sein werden, damit wir für altersgerechte Unterhaltung sorgen können.",
+    "more_q": "Aber ich habe noch so viele Fragen???",
+    "more_a": "Wenn du eine Frage hast, die wir nicht behandelt haben, schreibe uns bitte eine <email>E-Mail</email> und wir werden sie beantworten. Wenn es eine WIRKLICH gute Frage ist, könnte sie sogar einen Platz auf dieser Seite verdienen."
+  },
   "EmailSubscribe": {
     "sign-up": "Anmelden für Updates",
     "send-button": "Anmelden",

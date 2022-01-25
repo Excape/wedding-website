@@ -32,7 +32,7 @@ const LanguageSwitcher = ({ lang }: Props) => {
         <ChevronDown />
       </a>
       {isOpen && (
-        <Link href="" locale={otherLang}>
+        <Link href="" locale={otherLang} scroll={false}>
           <a
             className="relative arrow-up menu--animated flex justify-center mt-3 bg-white border-map-blue border-2 rounded-xl shadow-lg"
             onClick={toggleLanguage}

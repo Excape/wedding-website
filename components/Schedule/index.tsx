@@ -11,7 +11,7 @@ const Schedule = () => {
   return (
     <Section
       id="schedule"
-      className="bg-map-beige text-map-blue font-medium min-h-screen space-y-16 md:space-y-0"
+      className="bg-map-beige text-map-blue font-medium space-y-16 md:space-y-0"
     >
       <SectionHeader className="text-map-blue">{t("title")}</SectionHeader>
       <div className="flex flex-col md:flex-row md:items-center">

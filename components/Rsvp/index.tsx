@@ -1,4 +1,5 @@
 import { Button, Input, Label, Textarea } from "@windmill/react-ui";
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { SpinnerCircular } from "spinners-react";
@@ -34,15 +35,20 @@ const Rsvp = () => {
     });
   };
 
+  const t = useTranslations("RSVP");
+
   return (
     <Section id="rsvp" className="bg-map-beige text-map-blue">
-      <SectionHeader className="text-map-blue">Rsvp</SectionHeader>
+      <SectionHeader className="text-map-blue">{t("title")}</SectionHeader>
       <div className="md:w-2/3 md:mx-auto lg:w-1/2 xl:w-1/3">
         <p className="mb-4">
-          Please respond by{" "}
-          <time className="font-semibold" dateTime="2022-05-14">
-            May 14th, 2022
-          </time>
+          {t.rich("respond", {
+            date: (c) => (
+              <time className="font-semibold" dateTime="2022-05-14">
+                {c}
+              </time>
+            ),
+          })}
         </p>
         <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
           <Label>
@@ -52,7 +58,7 @@ const Rsvp = () => {
               aria-label="Name"
               css=""
               valid={!formState.errors.name}
-              {...register("name", { required: "Please provide a name" })}
+              {...register("name", { required: t("error_name") })}
             />
             <span className="font-bold text-map-red">
               {formState.errors.name?.message}
@@ -67,7 +73,7 @@ const Rsvp = () => {
               css=""
               valid={!formState.errors.email}
               {...register("email", {
-                required: "Please provide an email address",
+                required: t("error_email"),
               })}
             />
             <span className="font-bold text-map-red">
@@ -75,7 +81,7 @@ const Rsvp = () => {
             </span>
           </Label>
           <div className="">
-            <p className="mb-2">Will you be attending?*</p>
+            <p className="mb-2">{t("attending")}*</p>
             <div className="flex flex-row gap-4">
               <Label>
                 <Input
@@ -85,10 +91,10 @@ const Rsvp = () => {
                   css=""
                   valid={!formState.errors.attending}
                   {...register("attending", {
-                    required: "Please select a response",
+                    required: t("error_attending"),
                   })}
                 />
-                <span className="text-map-blue ml-1">Yes</span>
+                <span className="text-map-blue ml-1">{t("yes")}</span>
               </Label>
               <Label>
                 <Input
@@ -98,10 +104,10 @@ const Rsvp = () => {
                   css=""
                   valid={!formState.errors.attending}
                   {...register("attending", {
-                    required: "Please select a response",
+                    required: t("error_attending"),
                   })}
                 />
-                <span className="text-map-blue ml-1">No</span>
+                <span className="text-map-blue ml-1">{t("no")}</span>
               </Label>
             </div>
             <span className="font-bold text-map-red">
@@ -111,12 +117,8 @@ const Rsvp = () => {
           {watch("attending") !== "no" && (
             <>
               <Label>
-                <span className="block text-map-blue">
-                  Are you bringing anyone with you?
-                </span>
-                <span className="block text-map-blue">
-                  If so, let us know who!
-                </span>
+                <span className="block text-map-blue">{t("plusOne_1")}</span>
+                <span className="block text-map-blue">{t("plusOne_2")}</span>
                 <Input
                   type="text"
                   aria-label="additional guest"
@@ -125,10 +127,7 @@ const Rsvp = () => {
                 />
               </Label>
               <Label>
-                <span>
-                  Any other information that we should know? We&apos;re having a
-                  buffet, so any allergies, preferences, etc.
-                </span>
+                <span>{t("notes?")}</span>
                 <Textarea
                   className="bg-map-beige-light text-map-blue border-map-blue"
                   css=""
@@ -142,25 +141,15 @@ const Rsvp = () => {
             iconLeft={formState.isSubmitting && Spinner}
             disabled={formState.isSubmitting || formState.isSubmitSuccessful}
           >
-            Submit
+            {t("submit")}
           </Button>
           {formState.isSubmitSuccessful && watch("attending") === "yes" && (
-            <p className="font-bold">
-              Thank you! We&apos;re so excited to celebrate with you!
-            </p>
+            <p className="font-bold">{t("success_yes")}</p>
           )}
           {formState.isSubmitSuccessful && watch("attending") === "no" && (
-            <p className="font-bold">
-              Thanks for letting us know you can&apos;t make it. We hope to be
-              able to celebrate with you another time!
-            </p>
+            <p className="font-bold">{t("success_no")}</p>
           )}
-          {submitFailed && (
-            <p className="text-map-red">
-              Unfortunately something went wrong. Please tell Robin to fix the
-              website :)
-            </p>
-          )}
+          {submitFailed && <p className="text-map-red">{t("failure")}</p>}
           <p></p>
         </form>
       </div>

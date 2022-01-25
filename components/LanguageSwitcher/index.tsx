@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { route } from "next/dist/server/router";
 
 type Props = {
   lang: "de" | "en";
@@ -14,7 +16,7 @@ const LanguageSwitcher = ({ lang }: Props) => {
     setIsOpen(!isOpen);
   };
 
-  const toggleLanguage = () => {
+  const toggleLanguage = (event) => {
     setIsOpen(false);
     document.cookie = `NEXT_LOCALE=${otherLang}`;
   };
@@ -50,14 +52,14 @@ const LanguageSwitcher = ({ lang }: Props) => {
 
               .arrow-up:after {
                 border-color: rgba(255, 255, 255, 0);
-                border-bottom-color: #3B727C;
+                border-bottom-color: #3b727c;
                 border-width: 5px;
                 margin-left: -5px;
               }
 
               .arrow-up:before {
                 border-color: rgba(194, 225, 245, 0);
-                border-bottom-color: #3B727C;
+                border-bottom-color: #3b727c;
                 border-width: 8px;
                 margin-left: -8px;
               }

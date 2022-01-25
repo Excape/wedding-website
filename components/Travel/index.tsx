@@ -7,10 +7,7 @@ import { Heading2, Heading3, Link, SectionHeader } from "../Layout/styles";
 const Travel = () => {
   const t = useTranslations("Travel");
   return (
-    <Section
-      id="travel"
-      className="bg-map-blue min-h-screen text-map-beige-light"
-    >
+    <Section id="travel" className="bg-map-blue text-map-beige-light">
       <SectionHeader className="">{t("title")}</SectionHeader>
       <div className="space-y-8 text-center">
         <div className="md:w-2/3 md:mx-auto lg:w-1/2">

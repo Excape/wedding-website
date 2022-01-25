@@ -37,16 +37,33 @@ export const Heading3 = ({
   </h3>
 );
 
-export const LinkButton = ({ href, children }) => (
-  <a
-    className="inline-block w-48 border-map-blue border-2 font-title-sans px-2 py-1 my-2 uppercase hover:bg-map-blue hover:text-map-beige-light"
-    href={href}
-    target="_blank"
-    rel="noreferrer"
-  >
-    {children}
-  </a>
-);
+export const LinkButton = ({
+  href,
+  children,
+  blueBackground,
+}: {
+  href: string;
+  children: ReactNode;
+  blueBackground?: boolean;
+}) => {
+  const border = blueBackground ? "border-map-beige-light" : "border-map-blue";
+  const hoverBg = blueBackground
+    ? "hover:bg-map-beige-light"
+    : "hover:bg-map-blue";
+  const hoverText = blueBackground
+    ? "hover:text-map-blue"
+    : "hover:text-map-beige-light";
+  return (
+    <a
+      className={`inline-block text-center w-48 ${border} border-2 font-title-sans px-2 py-1 my-2 uppercase ${hoverBg} ${hoverText}`}
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {children}
+    </a>
+  );
+};
 
 export const Link = ({ href, children }) => (
   <a

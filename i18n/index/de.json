@@ -67,6 +67,29 @@
     "airbnb_details": "Wenn ihr lieber ein Apartment buchen wollt, empfehlen wir Airbnb. Die beiden Hotels sind in der Umgebung Medford, aber auch in Boston selber gibt es viele coole Gebiete zu erkunden. Kontaktiert uns, wenn ihr eine Empfehlung wünscht! ",
     "airbnb_link": "Airbnb besuchen"
   },
+  "RSVP": {
+    "title": "Anmeldung",
+    "respond": "Bitte meldet euch bis spätestens am <date>14. Mai 2022</date>",
+    "error_name": "Bitte gib einen Namen an",
+    "error_email": "Bitte gib eine Email-Adresse an",
+    "attending": "Wirst du teilnehmen?",
+    "error_attending": "Bitte wähle eine Antwort",
+    "yes": "Ja",
+    "no": "Nein",
+    "plusOne_1": "Bringst du jemanden mit?",
+    "plusOne_2": "Wenn ja, wer?",
+    "submit": "Abschicken",
+    "notes?": "Irgendwelche Informationen, die wir wissen sollten? Z.b. Allergien, Vegetarisch, Vegan, etc.",
+    "success_yes": "Vielen Dank! Wir freuen uns, zusammen feiern zu können!",
+    "success_no": "Danke für die Info. Wir freuen uns, ein anderes mal zusammen zu feiern.",
+    "failure": "Leider ging etwas schief. Bitte melde dies an Robin, damit er die Website fixen kann :)"
+  },
+  "Registry": {
+    "title": "Geschenke",
+    "message": "Wenn ihr uns ein Geschenk besorgen wollt, ist hier der Link für unsere Wunschliste. Bitte kauft direkt über diese Webseite, dann werden die Geschenke direkt zu uns gesendet.",
+    "visit": "Wunschliste"
+  },
+  "FAQ": {},
   "EmailSubscribe": {
     "sign-up": "Anmelden für Updates",
     "send-button": "Anmelden",

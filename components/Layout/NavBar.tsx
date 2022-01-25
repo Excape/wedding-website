@@ -71,11 +71,11 @@ const NavBar = () => {
             {t("ourstory")}
           </NavLink>
         </li> */}
-        <li>
+        {/* <li>
           <NavLink href="#thingstodo" {...linkProps}>
             {t("thingstodo")}
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink href="#rsvp" {...linkProps}>
             {t("rsvp")}

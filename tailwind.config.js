@@ -26,10 +26,12 @@ module.exports = windmill({
       fontFamily: {
         title: ["Rochester", "cursive"],
         "title-sans": ["Quicksand", "sans-serif"],
+        body: ["Quicksand", "ui-sans-serif"],
       },
       fontSize: {
         "10vw": "10vw",
         "7vw": "7vw",
+        "4vw": "4vw",
       },
       minHeight: {
         10: "10rem",
@@ -37,6 +39,9 @@ module.exports = windmill({
         20: "20rem",
         30: "30rem",
         40: "40rem",
+      },
+      maxHeight: {
+        screen: "100vh",
       },
     },
   },

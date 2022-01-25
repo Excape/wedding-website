@@ -2,10 +2,113 @@
   "index": {
     "title": "Sophie & Robin's Wedding"
   },
+  "Nav": {
+    "venues": "Venues",
+    "schedule": "Schedule",
+    "travel": "Travel",
+    "lodging": "Lodging",
+    "ourstory": "Our Story",
+    "thingstodo": "Things to do",
+    "rsvp": "RSVP",
+    "registry": "registry",
+    "faq": "FAQ"
+  },
   "Banner": {
-    "sophie-robin-wedding": "Sophie & Robin's Wedding",
-    "june-25-2022": "June 25th, 2022",
-    "maintenance": "Please check back tomorrow for the new website with all the updated information!"
+    "getting-married": "are getting married",
+    "june-25-2022": "June 25th, 2022"
+  },
+  "Venues": {
+    "venues": "Venues",
+    "ceremony": "Ceremony",
+    "reception": "Reception",
+    "directions": "Get directions",
+    "visitwebsite": "Visit Website"
+  },
+  "Schedule": {
+    "title": "Schedule",
+    "welcome": "Welcome Event",
+    "welcome_date": "Friday, June 24th",
+    "welcome_time": "Evening",
+    "welcome_details": "Come join us on Friday night when you get in! Details to follow.",
+    "ceremony": "Ceremony",
+    "ceremony_date": "Saturday, June 25th",
+    "ceremony_time": "3:30 PM - 4:30 PM",
+    "ceremony_location": "Laurie and Sol's house",
+    "reception": "Reception",
+    "reception_date": "Saturday, June 25th",
+    "reception_time": "5:00 PM",
+    "reception_details": "There will be a bus to take you from the ceremony to the reception venue!",
+    "brunch": "Sunday Brunch",
+    "brunch_date": "Sunday, June 26th",
+    "brunch_time": "Morning",
+    "brunch_details": "Details to follow."
+  },
+  "Travel": {
+    "title": "Travel",
+    "plane": "By Plane",
+    "airport": "Boston Logan Airport (BOS)",
+    "plane_details": "This is the closest airport. We would recommend booking ASAP. You can look through websites such as <momondo>momondo.com</momondo> or <kayak>kayak.com</kayak> for deals on flights.",
+    "plane_hotel": "Our hotel blocks are a short cab / Lyft/Uber ride away (about 15 minutes) or via public transit (about 45 minutes)",
+    "around": "Getting around",
+    "around_summary": "We will have a bus that goes from the hotels to the ceremony, ceremony to reception, and reception back to the hotels! But for getting around on the other days, here are a few options.",
+    "public_1": "Boston is a very walkable city. Lots of interesting things are close to each other, making it easier to walk or take public transit options to get around most times.",
+    "public_2": "The trains and busses (<mbta>MBTA</mbta>) are an affordable way to get around Boston. Each ride on subway is $2.40 and bus is $1.70. However, if you're planning to stay for a bit, we'd recommend getting a pass. Daily passes are $12.75 for 24 hours of travel and $22.50 for a weekly pass.",
+    "taxi": "Lyfts and Ubers are readily available in Boston, as are taxi cabs. This makes a good way to transport a few people around town.",
+    "rental": "You can rent a car right from the airport if you wish! The parking at the hotel blocks is $12.00 overnight and day parking is $6.00."
+  },
+  "Lodging": {
+    "title": "Lodging",
+    "fairfield_price": "$219 per night",
+    "blocks": "Room Block Rates available to book at this link:",
+    "book": "Book",
+    "website": "Visit Website",
+    "boston_north": "AC Hotel by Marriott Boston North",
+    "boston_north_price": "$259 per night",
+    "airbnb_details": "If you are looking for more of an apartment/home instead of a hotel, Airbnb is always a good place to start. The hotel is in the medford area, but feel free to book a place more in the city there are lots of great neighborhoods to look at! Let us know if you need a recommendation!",
+    "airbnb_link": "Visit Airbnb"
+  },
+  "RSVP": {
+    "title": "RSVP",
+    "respond": "Please respond by <date>May 14th, 2022</date>",
+    "error_name": "Please provide a name",
+    "error_email": "Please provide an email address",
+    "attending": "Will you be attending?",
+    "error_attending": "Please select a response",
+    "yes": "Yes",
+    "no": "No",
+    "plusOne_1": "Are you bringing anyone with you?",
+    "plusOne_2": "If so, let us know who!",
+    "submit": "Submit",
+    "notes?": "Any other information that we should know? We're having a buffet, so any allergies, preferences, etc.",
+    "success_yes": "Thank you! We're so excited to celebrate with you!",
+    "success_no": "Thanks for letting us know you can't make it. We hope to be able to celebrate with you another time!",
+    "failure": "Unfortunately something went wrong. Please tell Robin to fix the website :)"
+  },
+  "FAQ": {
+    "clothes_q": "What should I wear?",
+    "clothes_a_1": "Clothes.",
+    "clothes_a_2": "...I mean, if you need more that that for guidance, we're thinking casual but nice (because who wants to be in a full suit and ballgown in June, but also it is a wedding, folks).  But please wear what makes you comfortable!  Also, for the ladies, watch the shoes.  There will be dancing.  You have been forewarned.",
+    "diet_q": "Will you be accommodating any dietary restrictions or preferences?",
+    "diet_a": "Absolutely! We are paying an arm and a leg, and we want everyone to be able to enjoy our food! We already have a long list of allergens we're avoiding, so please feel free to add on with yours.  Please let us know any dietary restrictions or preferences when you RSVP!",
+    "car_q": "I won't have a car. How can I get to the wedding venues?",
+    "car_a": "We know that most guests are coming from out of town, and driving in Boston is the pits. There is no need to book a car if you're staying at the hotel blocks!  We will have a bus service from the hotels to the ceremony, from the ceremony to the reception and then back to the hotel. If you are staying elsewhere or living local, you're also welcome to take public transit or a cab to the hotels (or park at the hotel for 6 bucks for locals) and start the party early on the bus! Relive the days of field trips.  I know you missed them.  Keep an eye out for detailed information about the schedule!",
+    "parking_q": "For those of us with a car, what's the sitch with parking at the venues?",
+    "parking_a": "There isn't much at the ceremony location, as we've managed to convince someone to let us use their back yard.  There is lots at the reception.  If at all possible, we'd recommend taking the bus from the hotel.  If you want to suck and leave the reception before the busses go back, you can always take a Lyft/Uber back to your cars at the hotel.  Should be about 10 minutes.",
+    "outside_q": "Will we be inside or outside?",
+    "outside_a": "As well as the weather holds up, pray to the weather gods for us please, the ceremony will be outside.  Make sure to slather on the SPF.  The cocktail hour should (once again weather permitting) be outside, but the reception will be inside!",
+    "pics_q": "Can I take pictures during the ceremony?",
+    "pics_a": "We are hoping to have an unplugged ceremony and are asking everyone to not take photos during the ceremony. Please keep your phones and cameras in your pockets or bags while we do the marrying thing. We will have professional photographers capturing the ceremony and we'll share the results!  At the reception, selfie away!",
+    "social_q": "What if I want the world to know I was there?  What hashtag should I use for sharing photos from the weekend?",
+    "social_a": "We're using #WellSuted for the wedding.  All credit goes to the honorable Dr. Braine for that one",
+    "kids_q": "Can my kid come?",
+    "kids_a": "Have you met Sophie?  All little ones welcome, although she may pay more attention to your kid than the groom.  Just let us know they'll be there so we can make sure to have some age-appropirate entertainment prepared.",
+    "more_q": "But I have so many more things I want to know.  Why are there no more FAQs?",
+    "more_a": "If you have a question we haven't covered, please <email>email</email> us and we will do our best to figure it out.  Sophie's a teacher, she loves Questions.  Robin's a software engineer, he loves to Solve Problems.  If its a REALLY good question, it might even earn a place on this very site."
+  },
+  "Registry": {
+    "title": "Registry",
+    "message": "If you'd like to give us a gift, please look and order through our registry below!",
+    "visit": "Gift Registry"
   },
   "EmailSubscribe": {
     "sign-up": "Sign up for updates!",

@@ -2,11 +2,94 @@
   "index": {
     "title": "Sophie & Robin's Hochzeit"
   },
-  "Banner": {
-    "sophie-robin-wedding": "Sophie & Robin's Hochzeit",
-    "june-25-2022": "25. Juni 2022",
-    "maintenance": "Bitte schau morgen nochmals vorbei, dann ist die neue Website aufgeschaltet!"
+  "Nav": {
+    "venues": "Orte",
+    "schedule": "Zeitplan",
+    "travel": "Reisen",
+    "lodging": "Unterkunft",
+    "ourstory": "Über Uns",
+    "thingstodo": "Sehenswürdigkeiten",
+    "rsvp": "Anmeldung",
+    "registry": "Geschenke",
+    "faq": "FAQ"
   },
+  "Banner": {
+    "getting-married": "heiraten",
+    "june-25-2022": "25. Juni 2022"
+  },
+  "Venues": {
+    "venues": "Orte",
+    "ceremony": "Zeremonie",
+    "reception": "Feier",
+    "directions": "Anfahrt",
+    "visitwebsite": "Besuche die Website"
+  },
+  "Schedule": {
+    "title": "Zeitplan",
+    "welcome": "Begrüssung",
+    "welcome_date": "Freitag, 24. Juni",
+    "welcome_time": "Abend",
+    "welcome_details": "Gerne begrüssen wir euch am Freitag Abend wenn ihr ankommt. Details folgen.",
+    "ceremony": "Zeremonie",
+    "ceremony_date": "Samstag, 25. Juni",
+    "ceremony_time": "15:30 - 16:30 Uhr",
+    "ceremony_location": "Haus von Laurie & Sol",
+    "reception": "Feier",
+    "reception_date": "Samstag, 25. Juni",
+    "reception_time": "17:00 Uhr",
+    "reception_details": "Wir werden einen Bus bereitstellen, der euch von der Zeremonie zur Feier fährt!",
+    "brunch": "Sonntagsbrunch",
+    "brunch_date": "Sonntag, 26. Juni",
+    "brunch_time": "Morgen",
+    "brunch_details": "Details folgen."
+  },
+  "Travel": {
+    "title": "Reisen",
+    "plane": "Anreise per Flugzeug",
+    "airport": "Flughafen Boston Logan (BOS)",
+    "plane_details": "Dies is der nächste Flughafen. Wir empfehlen euch, die Flüge so bald wie möglich zu buchen, da die Preise stetig steigen. Ihr könnt z.b. auf <momondo>momondo.com</momondo> oder <kayak>kayak.com</kayak> günstige Flüge finden.",
+    "plane_hotel": "Unsere Hotels sind mit per Taxi (oder Uber / Lyft) in ca. 15 Minuten erreichbar, oder mit dem ÖV in ca. 45 Minuten.",
+    "around": "ÖV und Autos",
+    "around_summary": "Wir werden einen Bus haben, der euch von den Hotels zur Zeremonie, von der Zeremonie zur Feier und dann wieder zurück zu den Hotels fährt. Für die anderen Tage haben wir hier ein paar Tipps, um Boston zu erkunden.",
+    "public_1": "Boston ist eine sehr fussgängerfreundliche Stadt. Viele Sehenswürdigkeiten liegen nahe beieinander, so dass es einfach ist, zu Fuss zu gehen oder die ÖV zu benutzen.",
+    "public_2": "Die Metro und Busse bieten eine erschwingliche und umfangreiche Möglichkeit, sich in Boston zu bewegen. Jede Fahrt mit der Metro (Subway) kostet $1.70. Wenn ihr plant etwas länger zu bleiben, empfehlen wir einen Pass zu kaufen. Tageskarten kosten $12.75 und Wochenkarten $22.50. Weitere Informationen findet ihr auf der <mbta>Website der MBTA</mbta>.",
+    "taxi": "Lyfts und Ubers sind in Boston reichlich verfügbar, ebenso wie Taxis. Dies ist eine gute Möglichkeit, mit ein paar Leute durch die Stadt zu fahren.",
+    "rental": "Ihr könnt direkt vom Flughafen aus ein Auto mieten. Das Parkieren bei den Hotels kostet $6.00 pro Tag und $12.00 pro Nacht."
+  },
+  "Lodging": {
+    "title": "Unterkunft",
+    "fairfield_price": "$219 pro Nacht",
+    "blocks": "Wir haben Zimmerkontingente reserviert, die ihr unter folgendem Link buchen könnt:",
+    "book": "Zimmer buchen",
+    "website": "Website besuchen",
+    "boston_north": "AC Hotel by Marriott Boston North",
+    "boston_north_price": "$259 pro Nacht",
+    "airbnb_details": "Wenn ihr lieber ein Apartment buchen wollt, empfehlen wir Airbnb. Die beiden Hotels sind in der Umgebung Medford, aber auch in Boston selber gibt es viele coole Gebiete zu erkunden. Kontaktiert uns, wenn ihr eine Empfehlung wünscht! ",
+    "airbnb_link": "Airbnb besuchen"
+  },
+  "RSVP": {
+    "title": "Anmeldung",
+    "respond": "Bitte meldet euch bis spätestens am <date>14. Mai 2022</date>",
+    "error_name": "Bitte gib einen Namen an",
+    "error_email": "Bitte gib eine Email-Adresse an",
+    "attending": "Wirst du teilnehmen?",
+    "error_attending": "Bitte wähle eine Antwort",
+    "yes": "Ja",
+    "no": "Nein",
+    "plusOne_1": "Bringst du jemanden mit?",
+    "plusOne_2": "Wenn ja, wer?",
+    "submit": "Abschicken",
+    "notes?": "Irgendwelche Informationen, die wir wissen sollten? Z.b. Allergien, Vegetarisch, Vegan, etc.",
+    "success_yes": "Vielen Dank! Wir freuen uns, zusammen feiern zu können!",
+    "success_no": "Danke für die Info. Wir freuen uns, ein anderes mal zusammen zu feiern.",
+    "failure": "Leider ging etwas schief. Bitte melde dies an Robin, damit er die Website fixen kann :)"
+  },
+  "Registry": {
+    "title": "Geschenke",
+    "message": "Wenn ihr uns ein Geschenk besorgen wollt, ist hier der Link für unsere Wunschliste. Bitte kauft direkt über diese Webseite, dann werden die Geschenke direkt zu uns gesendet.",
+    "visit": "Wunschliste"
+  },
+  "FAQ": {},
   "EmailSubscribe": {
     "sign-up": "Anmelden für Updates",
     "send-button": "Anmelden",

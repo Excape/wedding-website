@@ -16,7 +16,7 @@
     "babel-plugin-inline-react-svg": "2.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-hook-form": "7.25.0",
+    "react-hook-form": "7.25.1",
     "react-responsive-carousel": "3.2.22",
     "spinners-react": "1.0.6",
     "styled-components": "5.3.3",

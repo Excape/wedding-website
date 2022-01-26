@@ -67,6 +67,27 @@
     "airbnb_details": "Wenn ihr lieber ein Apartment buchen wollt, empfehlen wir Airbnb. Die beiden Hotels sind in der Umgebung Medford, aber auch in Boston selber gibt es viele coole Gebiete zu erkunden. Kontaktiert uns, wenn ihr eine Empfehlung wünscht! ",
     "airbnb_link": "Airbnb besuchen"
   },
+  "ThingsToDo": {
+    "title": "Sehenswürdigkeiten",
+    "intro": "Wenn ihr etwas länger in Boston verbleiben möchtet (was wir natürlich sehr empfehlen), sind hier ein paar Ideen und Sehenswürdigkeiten:",
+    "brewery": {
+      "tours": "Brauereien",
+      "breweries": "uns gefielen <downeast>Down East cider</downeast>, <harp>Harpoon IPA</harp> und <sam>Sam Adams</sam>"
+    },
+    "duck": "eine coole Möglichkeit, die Stadt zu sehen!",
+    "common": "<public>Public Gardens und Common</public> / State House",
+    "walk": "ideal für einen Spaziergang!",
+    "copley": "Copley Square und <bpl>Boston Public Library</bpl>",
+    "farm": "jeden Dienstag und Freitag findet ein Markt statt",
+    "food": "reichlich gutes Essen!",
+    "game": "ihr könnt auch ein Baseball game schauen!",
+    "history": "gut um über die Geschichte Boston's zu erfahren. Diese Tour beginnt gleich bei Boston Common und geht durch die Innenstadt.",
+    "nearby": {
+      "title": "Naheliegende Gebiete",
+      "close": "Es gibt viele tolle Orte in New England mit dem Auto zu erkunden, wenn ihr die Reise verlängern möchtet! Einer unserer Favoriten ist ein Trip in den Norden nach Maine zum Acadia Nationalpark. Oder auch zu den Green Mountains in Vermont oder die White Mountains in New Hampshire. Im Westen von Massachussetts sind die Berkshires für Naturtrips sehr empfehleswert.",
+      "far": "Wenn ihr andere coole Städte erkunden wollt, ist natürlich New York City in der Nähe (ca. 4 Autostunden). Etwas näher zu Boston liegen Orte wie North Hampton und Amherst im Westen von Massachussetts, Montpellier und Burlington in Vermont, oder Portland in Maine. Es gibt auch viele charmante Städtchen, die ihr auf dem Weg antreffen könnt. Etwas weiter weg im Süden können wir auch Washington DC sehr empfehlen, das ist allerdings 8 Stunden von Boston entfernt :)"
+    }
+  },
   "RSVP": {
     "title": "Anmeldung",
     "respond": "Bitte meldet euch bis spätestens am <date>14. Mai 2022</date>",

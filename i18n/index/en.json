@@ -84,6 +84,27 @@
     "success_no": "Thanks for letting us know you can't make it. We hope to be able to celebrate with you another time!",
     "failure": "Unfortunately something went wrong. Please tell Robin to fix the website :)"
   },
+  "ThingsToDo": {
+    "title": "Things to Do",
+    "intro": "If you're planning to stay in and around Boston a little longer (which we highly recommend!), here are some ideas of what to do:",
+    "brewery": {
+      "tours": "Brewery tours",
+      "breweries": "we liked <downeast>Down East cider</downeast>, <harp>Harpoon IPA</harp>, and <sam>Sam Adams</sam>"
+    },
+    "duck": "a fun way to explore the city!",
+    "common": "<public>Public Gardens and Common</public> / State House",
+    "walk": "good for a walk!",
+    "copley": "Copley Square and <bpl>Boston Public Library</bpl>",
+    "farm": "there is a farmers market every Tuesday & Friday!",
+    "food": "lots of great food!",
+    "game": "you can even take in a game!",
+    "history": "learn about Boston's history! This starts right at Boston Common and goes all over downtown!",
+    "nearby": {
+      "title": "Nearby areas to explore",
+      "close": "There are lots of amazing places you can explore with a car in New England if you wanted to expand your trip! One of our favorites for an outdoor adventure is a trip up to Maine to visit Acadia National Park, explore the Green Mountains in Vermont and the White Mountains in New Hampshire, or head west to Western Massachusetts and the Berkshires (go MHC!)",
+      "far": "For some other cool cities to explore, there is of course, New York City, which is about 4 hours away. More local to New England you have cities like North Hampton and Amherst in Western MA, Montpellier and Burlington VT, or Portland ME. Part of the journey is enjoying the little towns you cross through on the way. If you're looking for even more of an adventure, I can recommend DC as another amazing place to visit, but it is 8 hours from Boston :)"
+    }
+  },
   "FAQ": {
     "clothes_q": "What should I wear?",
     "clothes_a_1": "Clothes.",

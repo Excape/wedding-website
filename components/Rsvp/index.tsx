@@ -1,5 +1,6 @@
 import { Button, Input, Label, Textarea } from "@windmill/react-ui";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { SpinnerCircular } from "spinners-react";
@@ -17,14 +18,20 @@ type Inputs = {
 const Rsvp = () => {
   const { register, handleSubmit, watch, formState } = useForm<Inputs>();
   const [submitFailed, setSubmitFailed] = useState(false);
+  const { locale } = useRouter();
+
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    const payload = {
+      ...data,
+      locale,
+    };
     await fetch("/api/rsvp", {
       method: "post",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(data),
+      body: JSON.stringify(payload),
     }).then((response) => {
       if (!response.ok) {
         response.json().then(console.error);

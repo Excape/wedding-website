@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { route } from "next/dist/server/router";
 
 type Props = {
   lang: "de" | "en";

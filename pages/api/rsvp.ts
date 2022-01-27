@@ -6,6 +6,7 @@ type Form = {
   attending: string;
   plusOne: string;
   notes: string;
+  locale: string;
 };
 
 const rsvp = async (req, res) => {
@@ -64,6 +65,14 @@ async function postToNotion(form: Form, notion: Client, databaseId: string) {
             {
               type: "text",
               text: { content: form.notes },
+            },
+          ],
+        },
+        language: {
+          rich_text: [
+            {
+              type: "text",
+              text: { content: form.locale },
             },
           ],
         },

@@ -107,8 +107,9 @@
   },
   "Registry": {
     "title": "Geschenke",
-    "message": "Wenn ihr uns ein Geschenk besorgen wollt, ist hier der Link für unsere Wunschliste. Bitte kauft direkt über diese Webseite, dann werden die Geschenke direkt zu uns gesendet.",
-    "visit": "Wunschliste"
+    "message": "Wenn ihr uns ein Geschenk besorgen wollt, sind hier die Links für unsere Wunschlisten. Bitte kauft über die entsprechende Website, dann werden die Geschenke direkt zu uns geliefert.",
+    "visit_zola": "Zola Wunschliste",
+    "visit_kolbo": "Kolbo Judaika"
   },
   "FAQ": {
     "clothes_q": "Was soll ich anziehen?",

@@ -41,10 +41,12 @@ export const LinkButton = ({
   href,
   children,
   blueBackground,
+  className,
 }: {
   href: string;
   children: ReactNode;
   blueBackground?: boolean;
+  className?: string;
 }) => {
   const border = blueBackground ? "border-map-beige-light" : "border-map-blue";
   const hoverBg = blueBackground
@@ -55,7 +57,7 @@ export const LinkButton = ({
     : "hover:text-map-beige-light";
   return (
     <a
-      className={`inline-block text-center w-48 ${border} border-2 font-title-sans px-2 py-1 my-2 uppercase ${hoverBg} ${hoverText}`}
+      className={`inline-block text-center w-48 ${border} border-2 font-title-sans px-2 py-1 my-2 uppercase ${hoverBg} ${hoverText} ${className}`}
       href={href}
       target="_blank"
       rel="noreferrer"

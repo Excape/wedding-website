@@ -128,8 +128,10 @@
   },
   "Registry": {
     "title": "Registry",
-    "message": "If you'd like to give us a gift, please look and order through our registry below!",
-    "visit": "Gift Registry"
+    "message": "If you'd like to give us a gift, please look and order through one of our registries below!",
+    "visit_zola": "Zola Gift Registry",
+    "visit_kolbo": "Kolbo Judaica Registry"
+
   },
   "EmailSubscribe": {
     "sign-up": "Sign up for updates!",

@@ -56,7 +56,7 @@ async function postToNotion(form: Form, notion: Client, databaseId: string) {
           rich_text: [
             {
               type: "text",
-              text: { content: form.plusOne },
+              text: { content: form.plusOne || "<empty>" },
             },
           ],
         },
@@ -64,7 +64,7 @@ async function postToNotion(form: Form, notion: Client, databaseId: string) {
           rich_text: [
             {
               type: "text",
-              text: { content: form.notes },
+              text: { content: form.notes || "<empty>" },
             },
           ],
         },

@@ -82,7 +82,7 @@
     "notes?": "Any other information that we should know? We're having a buffet, so any allergies, preferences, etc.",
     "success_yes": "Thank you! We're so excited to celebrate with you!",
     "success_no": "Thanks for letting us know you can't make it. We hope to be able to celebrate with you another time!",
-    "failure": "Unfortunately something went wrong. Please tell Robin to fix the website :)"
+    "failure": "Unfortunately something went wrong. Please <email>shoot us an email</email> so we can fix it :)"
   },
   "ThingsToDo": {
     "title": "Things to Do",
@@ -131,7 +131,6 @@
     "message": "If you'd like to give us a gift, please look and order through one of our registries below!",
     "visit_zola": "Zola Gift Registry",
     "visit_kolbo": "Kolbo Judaica Registry"
-
   },
   "EmailSubscribe": {
     "sign-up": "Sign up for updates!",

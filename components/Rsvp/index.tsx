@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { SpinnerCircular } from "spinners-react";
 import Section from "../Layout/Section";
-import { SectionHeader } from "../Layout/styles";
+import { Link, SectionHeader } from "../Layout/styles";
 
 type Inputs = {
   name: string;
@@ -156,7 +156,15 @@ const Rsvp = () => {
           {formState.isSubmitSuccessful && watch("attending") === "no" && (
             <p className="font-bold">{t("success_no")}</p>
           )}
-          {submitFailed && <p className="text-map-red">{t("failure")}</p>}
+          {submitFailed && (
+            <p className="text-map-red">
+              {t.rich("failure", {
+                email: (t) => (
+                  <Link href="mailto:sophieplusrobin@gmail.com">{t}</Link>
+                ),
+              })}
+            </p>
+          )}
           <p></p>
         </form>
       </div>

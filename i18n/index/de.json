@@ -103,7 +103,7 @@
     "notes?": "Irgendwelche Informationen, die wir wissen sollten? Z.b. Allergien, Vegetarisch, Vegan, etc.",
     "success_yes": "Vielen Dank! Wir freuen uns, zusammen feiern zu können!",
     "success_no": "Danke für die Info. Wir freuen uns, ein anderes mal zusammen zu feiern.",
-    "failure": "Leider ging etwas schief. Bitte melde dies an Robin, damit er die Website fixen kann :)"
+    "failure": "Leider ging etwas schief. Bitte <email>schreibe uns eine E-Mail</email>, damit wir die Website fixen können :)"
   },
   "Registry": {
     "title": "Geschenke",

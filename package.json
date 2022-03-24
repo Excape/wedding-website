@@ -19,7 +19,7 @@
     "react-hook-form": "7.28.1",
     "react-responsive-carousel": "3.2.23",
     "spinners-react": "1.0.6",
-    "styled-components": "5.3.3",
+    "styled-components": "5.3.5",
     "validate.js": "0.13.1"
   },
   "devDependencies": {

@@ -28,8 +28,8 @@
     "title": "Zeitplan",
     "welcome": "Begrüssung",
     "welcome_date": "Freitag, 24. Juni",
-    "welcome_time": "Abend",
-    "welcome_details": "Gerne begrüssen wir euch am Freitag Abend wenn ihr ankommt. Details folgen.",
+    "welcome_time": "19:30 - 21:30 Uhr",
+    "welcome_details": "Gerne begrüssen wir euch am Freitag Abend wenn ihr ankommt.",
     "ceremony": "Zeremonie",
     "ceremony_date": "Samstag, 25. Juni",
     "ceremony_time": "15:30 - 16:30 Uhr",
@@ -40,8 +40,8 @@
     "reception_details": "Wir werden einen Bus bereitstellen, der euch von der Zeremonie zur Feier fährt!",
     "brunch": "Sonntagsbrunch",
     "brunch_date": "Sonntag, 26. Juni",
-    "brunch_time": "Morgen",
-    "brunch_details": "Details folgen."
+    "brunch_time": "10:00 Uhr",
+    "brunch_details": "Kommt vorbei für einen Brunch nach der Feier!"
   },
   "Travel": {
     "title": "Reisen",

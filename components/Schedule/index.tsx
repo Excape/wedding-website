@@ -33,7 +33,8 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>{t("welcome_details")}</p>
+          <p>AC Hotel Boston North, 95 Station Landing, Medford</p>
+          <p className="mt-4">{t("welcome_details")}</p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row md:items-center">
@@ -102,7 +103,8 @@ const Schedule = () => {
               objectFit="contain"
             />
           </div>
-          <p>{t("brunch_details")}</p>
+          <p>AC Hotel Boston North, 95 Station Landing, Medford</p>
+          <p className="mt-4">{t("brunch_details")}</p>
         </div>
       </div>
     </Section>

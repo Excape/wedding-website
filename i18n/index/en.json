@@ -28,8 +28,8 @@
     "title": "Schedule",
     "welcome": "Welcome Event",
     "welcome_date": "Friday, June 24th",
-    "welcome_time": "Evening",
-    "welcome_details": "Come join us on Friday night when you get in! Details to follow.",
+    "welcome_time": "7:30 PM - 9:30 PM",
+    "welcome_details": "Come join us on Friday night when you get in!",
     "ceremony": "Ceremony",
     "ceremony_date": "Saturday, June 25th",
     "ceremony_time": "3:30 PM - 4:30 PM",
@@ -40,8 +40,8 @@
     "reception_details": "There will be a bus to take you from the ceremony to the reception venue!",
     "brunch": "Sunday Brunch",
     "brunch_date": "Sunday, June 26th",
-    "brunch_time": "Morning",
-    "brunch_details": "Details to follow."
+    "brunch_time": "10:00 AM",
+    "brunch_details": "Come join us for an after-celebration brunch!"
   },
   "Travel": {
     "title": "Travel",

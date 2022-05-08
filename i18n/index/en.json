@@ -73,6 +73,8 @@
     "error_name": "Please provide a name",
     "error_email": "Please provide an email address",
     "attending": "Will you be attending?",
+    "attending_friday": "Are you planning to attend the welcome event on Friday night?",
+    "attending_sunday": "Are you planning to attend the brunch on Sunday morning?",
     "error_attending": "Please select a response",
     "yes": "Yes",
     "no": "No",

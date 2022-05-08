@@ -4,6 +4,8 @@ type Form = {
   name: string;
   email: string;
   attending: string;
+  friday: string;
+  sunday: string;
   plusOne: string;
   notes: string;
   locale: string;
@@ -79,6 +81,16 @@ async function postToNotion(form: Form, notion: Client, databaseId: string) {
         Date: {
           date: {
             start: new Date(),
+          },
+        },
+        "Friday Night": {
+          select: {
+            name: form.friday || "Unknown",
+          },
+        },
+        "Sunday Brunch": {
+          select: {
+            name: form.sunday || "Unknown",
           },
         },
       },

@@ -11,6 +11,8 @@ type Inputs = {
   name: string;
   email: string;
   attending: string;
+  friday: string;
+  sunday: string;
   plusOne: string;
   notes: string;
 };
@@ -133,6 +135,78 @@ const Rsvp = () => {
                   {...register("plusOne")}
                 />
               </Label>
+              <div className="mb-2">
+                <span className="block text-map-blue">
+                  {t("attending_friday")}
+                </span>
+                <div className="flex flex-row gap-4">
+                  <Label>
+                    <Input
+                      type="radio"
+                      name="friday"
+                      value="Yes"
+                      css=""
+                      valid={!formState.errors.attending}
+                      {...register("friday", {
+                        required: t("error_attending"),
+                      })}
+                    />
+                    <span className="text-map-blue ml-1">{t("yes")}</span>
+                  </Label>
+                  <Label>
+                    <Input
+                      type="radio"
+                      name="friday"
+                      value="No"
+                      css=""
+                      valid={!formState.errors.attending}
+                      {...register("friday", {
+                        required: t("error_attending"),
+                      })}
+                    />
+                    <span className="text-map-blue ml-1">{t("no")}</span>
+                  </Label>
+                </div>
+                <span className="font-bold text-map-red">
+                  {formState.errors.friday?.message}
+                </span>
+              </div>
+              <div className="mb-2">
+                <span className="block text-map-blue">
+                  {t("attending_sunday")}
+                </span>
+                <div className="flex flex-row gap-4">
+                  <Label>
+                    <Input
+                      type="radio"
+                      name="sunday"
+                      value="Yes"
+                      css=""
+                      valid={!formState.errors.attending}
+                      {...register("sunday", {
+                        required: t("error_attending"),
+                      })}
+                    />
+                    <span className="text-map-blue ml-1">{t("yes")}</span>
+                  </Label>
+                  <Label>
+                    <Input
+                      type="radio"
+                      name="sunday"
+                      value="No"
+                      css=""
+                      valid={!formState.errors.attending}
+                      {...register("sunday", {
+                        required: t("error_attending"),
+                      })}
+                    />
+                    <span className="text-map-blue ml-1">{t("no")}</span>
+                  </Label>
+                </div>
+                <span className="font-bold text-map-red">
+                  {formState.errors.sunday?.message}
+                </span>
+              </div>
               <Label>
                 <span>{t("notes?")}</span>
                 <Textarea

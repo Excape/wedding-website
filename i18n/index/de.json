@@ -94,6 +94,8 @@
     "error_name": "Bitte gib einen Namen an",
     "error_email": "Bitte gib eine Email-Adresse an",
     "attending": "Wirst du teilnehmen?",
+    "attending_friday": "Planst du, am Freitag Abend teilzunehmen?",
+    "attending_sunday": "Planst du, am Sonntagsbrunch teilzunehmen?",
     "error_attending": "Bitte wähle eine Antwort",
     "yes": "Ja",
     "no": "Nein",

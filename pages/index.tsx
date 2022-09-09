@@ -22,7 +22,7 @@ import ImageBanner from "../components/ImageBanner";
 import TitleBanner from "../components/TitleBanner";
 
 const MainContainer = styled.main`
-  padding-top: 56px;
+  /* padding-top: 56px; */
 `;
 
 export default function Home() {
@@ -41,21 +41,21 @@ export default function Home() {
         />
       </Head>
 
-      <NavBar />
+      {/* <NavBar /> */}
       <MainContainer>
         <ImageBanner />
         <LanguageSwitcher lang={router.locale as "de" | "en"} />
         <TitleBanner />
         {/* <EmailSubscribe /> */}
-        <Venues />
-        <Schedule />
-        <Travel />
-        <Lodging />
+        {/* <Venues /> */}
+        {/* <Schedule /> */}
+        {/* <Travel /> */}
+        {/* <Lodging /> */}
         {/* <OurStory /> */}
-        <ThingsToDo />
-        <Rsvp />
-        <Registry />
-        <FAQ />
+        {/* <ThingsToDo /> */}
+        {/* <Rsvp /> */}
+        {/* <Registry /> */}
+        {/* <FAQ /> */}
       </MainContainer>
     </>
   );

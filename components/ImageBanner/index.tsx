@@ -13,8 +13,8 @@ const ImageBanner = () => {
         infiniteLoop
         showStatus={false}
       >
-        {Array.from(Array(8).keys()).map((i) => (
-          <img key={i} src={`/pics/${i + 1}.jpg`} alt="Selfies" />
+        {Array.from(Array(7).keys()).map((i) => (
+          <img key={i} src={`/pics/${i + 1}.jpeg`} alt="Selfies" />
         ))}
       </Carousel>
     </div>

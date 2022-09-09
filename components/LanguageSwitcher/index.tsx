@@ -20,7 +20,7 @@ const LanguageSwitcher = ({ lang }: Props) => {
   };
 
   return (
-    <div className="fixed top-16 right-8">
+    <div className="fixed top-4 right-4">
       <a
         className="flex items-center bg-white px-2 border-map-blue border-2 rounded-xl shadow-lg"
         onClick={toggleSwitcher}
